@@ -4,6 +4,7 @@ import Header from './Header';
 import Brand from './Brand'
 import Tasks from './Tasks'
 import Add from './Add'
+import Model from './model/Model'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Brand />
       <Add />
       <Tasks />
+      <Model />
     </div>
   );
 }
